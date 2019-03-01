@@ -37,7 +37,5 @@ public class Th3 extends Thread{
         } catch (InterruptedException ex) {
             // Logger.getLogger(Th1.class.getName()).log(Level.SEVERE, null, ex);
         }
-    
     }
-    
 }

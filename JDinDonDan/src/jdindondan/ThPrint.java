@@ -24,7 +24,6 @@ public class ThPrint extends Thread {
 
     @Override
     public void run() {
-
         try {
             while (true) {
                 d.p.acquire();
@@ -41,7 +40,5 @@ public class ThPrint extends Thread {
         } catch (InterruptedException ex) {
             // Logger.getLogger(Th1.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
-
 }
